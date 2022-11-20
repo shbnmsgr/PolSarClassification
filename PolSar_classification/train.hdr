@@ -1,0 +1,23 @@
+ENVI
+description = {
+  Classification Image created from input ROIs [Thu May 28 04:02:25 2020]}
+samples = 1000
+lines   = 1750
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 7
+class lookup = {
+   0,   0,   0, 255,   0,   0,   0,   0, 255,   0, 255,   0, 255, 255,   0,
+   0, 255, 255, 255,   0, 255}
+class names = {
+ Unclassified, water [Red] 500 points, oat [Blue] 500 points, 
+ winter_wheat [Green] 500 points, coniferous [Yellow] 500 points, 
+ rye [Cyan] 500 points, urban [Magenta] 500 points}
+byte order = 0
+wavelength units = Unknown
+band names = {
+ Class Image from ROIs}
